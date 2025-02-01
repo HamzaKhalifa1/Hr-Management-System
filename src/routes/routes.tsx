@@ -1,5 +1,5 @@
 import { RouteObject } from "react-router-dom"; 
-import Layout from "../component/layout/Layout";
+import Layout from "../Pages/layout/Layout";
 const routes: RouteObject[] = [
   {
     path: "/",
