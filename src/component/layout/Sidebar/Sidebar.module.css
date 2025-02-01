@@ -3,7 +3,6 @@
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
-    width: 19%;
     background-color: var(--gray-opacity-5);
     height: 100vh;
     border-radius: 20px;
