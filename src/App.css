@@ -1,3 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin-left: 20px;
+    margin-top: 20px;
+}
 :root {
     /* Primary Colors */
     --primary-100: #e6e2f8;
