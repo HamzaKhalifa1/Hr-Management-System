@@ -1,0 +1,36 @@
+.navLink{
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    width: calc(100% - 2rem);
+    padding: 0 1rem 0 0;
+    border-radius: 0 10px 10px 0;
+    text-decoration: none;
+    position: relative;
+    color: var(--dark-500);
+}
+
+.name{
+    color: var(--dark-500);
+}
+
+.nameActive{
+    color: var(--primary-500);
+    font-weight: 500;
+}
+
+.border, .borderActive{
+    width: 3px;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.borderActive{
+    background-color: var(--primary-500);
+}
+
+.active{
+    color: var(--primary-500);
+    background-color: var(--primary-opacity-5);
+}
