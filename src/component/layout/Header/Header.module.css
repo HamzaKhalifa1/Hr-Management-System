@@ -1,0 +1,46 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 5.125em;
+    align-items: center;
+
+}
+.leftHeader{
+    display: flex;
+}
+.rightHeader{
+    display: flex;
+}
+.rightHeader div{
+    padding: 0 1em;
+}
+.searchWrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.searchIcon {
+    position: absolute;
+    left: 0;
+}
+
+.searchInput {
+    width: 16.3125em;
+    border-radius: 10px;
+    padding: 1rem 1rem 1rem 3rem;
+    border: 1px solid #A2A1A81A;
+    font-family:"Lexend", serif;
+    font-size: 16px;
+
+}
+
+.searchInput::placeholder {
+    color: #9ca3af;
+    font-family:"Lexend", serif;
+}
+
+.searchInput:focus {
+    outline: none;
+    border: 2px solid #9ca3af;
+}
