@@ -1,0 +1,32 @@
+.pagination{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+    height: fit-content;
+}
+
+.empNumbers{
+    display: flex;
+    column-gap: 0.6em;
+    color: var(--gray-500);
+    align-items: center;
+}
+
+.empSelect{
+    background-color: var(--white-opacity-20);
+    color: var(--dark-500);
+    border: 1px solid var(--gray-opacity-20);
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.empRecords{
+    color: var(--gray-500);
+    align-self: center;
+}
+
+.pageNumbers{
+    display: flex;
+    column-gap: 0.5em;
+}

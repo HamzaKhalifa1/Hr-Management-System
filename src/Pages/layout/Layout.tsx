@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom"
-import Sidebar from "../../component/layout/Sidebar/Sidebar.tsx"
-import Header from "../../component/layout/Header/Header.tsx"
+import Sidebar from "../../component/layout/Sidebar"
+import Header from "../../component/layout/Header"
 import styles from "./Layout.module.css"
 import { useSelector } from "react-redux"
 

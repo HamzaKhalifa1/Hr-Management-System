@@ -24,7 +24,7 @@ export default function Sidebar() {
         </span>
         <ul className={styles.navbar}>
           <SidebarLink to="/" icon={<DashboardIcon />} label="Dashboard" />
-          <SidebarLink to="/employees" icon={<AllEmployeesIcon />} label="All Employees" />
+          <SidebarLink to="/all-employees" icon={<AllEmployeesIcon />} label="All Employees" />
           <SidebarLink to="/departments" icon={<AllDepartmentsIcon />} label="All Departments" />
           <SidebarLink to="/attendance" icon={<CalendarCheckIcon />} label="Attendance" />
           <SidebarLink to="/payroll" icon={<CoinDollarIcon />} label="Payroll" />

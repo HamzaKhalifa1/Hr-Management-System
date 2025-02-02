@@ -1,0 +1,47 @@
+.employeeTable{
+    width: 100%;
+    border-style: collapse;
+    margin-top: 2em;
+}
+
+.tableHeader, .tableBody{
+    color: var(--gray-500);
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.4rem;
+    text-align: left;
+}
+
+.tableBody{
+    color: var(--dark-500);
+}
+
+.tableRow{
+    border-bottom: 1px solid var(--gray-500);
+}
+
+.employeeName{
+    display: flex;
+    align-items: center;
+    column-gap: 1em;
+    width: fit-content;
+}
+
+.actionButtons{
+    display: flex;
+    column-gap: 0.2em;
+    width: fit-content;
+}
+
+.viewButton, .editButton, .deleteButton{
+    background-color: var(--white-opacity-20);
+    color: var(--dark-500);
+    border: none;
+}
+
+td, th{
+    border-bottom: 1px solid var(--gray-opacity-10);
+    padding: 0.4em 0;
+    font-weight: 300;
+}
+
