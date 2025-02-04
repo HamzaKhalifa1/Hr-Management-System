@@ -1,0 +1,41 @@
+.main{
+    border: 1px solid var(--gray-opacity-20);
+    border-radius: 10px;
+    padding: 1em;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-bottom: 1em;
+    height: fit-content;
+}
+
+.rightHeader{
+    display: flex;
+    column-gap: 1em;
+}
+
+.addEmp, .filterEmp{
+    display: flex;
+    background-color: var(--primary-500);
+    color: var(--white-500);
+    align-items: center;
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    column-gap: 0.5em;
+}
+
+.addEmp img{
+    color: var(--white-500);
+}
+
+.filterEmp{
+    background-color: var(--white-opacity-20);
+    color: var(--dark-500);
+    border: 1px solid var(--gray-opacity-20);
+}
+
+

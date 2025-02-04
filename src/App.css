@@ -158,7 +158,11 @@ p {
     line-height: 1rem;
 }
 
-body, button{
+body, button, input, select, textarea {
   font-family: "Lexend", serif;
   font-optical-sizing: auto;
+}
+
+button, input, select, textarea {
+    cursor: pointer;
 }
